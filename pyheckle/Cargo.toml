@@ -1,0 +1,12 @@
+[package]
+name = "pyheckle"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "pyheckle"
+crate-type = ["cdylib"]
+
+[dependencies]
+heckle = { path = "../heckle" }
+pyo3 = { version = "0.22", features = ["extension-module"] }

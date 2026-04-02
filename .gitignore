@@ -4,3 +4,7 @@
 # Rust
 Cargo.lock
 target/
+
+# Python
+pyheckle/.venv/
+pyheckle/dist/

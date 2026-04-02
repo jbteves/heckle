@@ -1,21 +1,3 @@
-[package]
-name = "heckle"
-version = "0.1.0"
-edition = "2021"
-description = "Semi-joke case conversion library: Spongebob Case and Billy Mays Mode"
-license = "MIT OR Apache-2.0"
-readme = "README.md"
-repository = "https://github.com/jbteves/heckle"
-documentation = "https://docs.rs/heckle"
-
-[dependencies]
-rand = { version = "0.8", features = ["small_rng"] }
-
-[dev-dependencies]
-criterion = { version = "0.5", features = ["html_reports"] }
-heck = "0.5"
-proptest = "1"
-
-[[bench]]
-name = "conversions"
-harness = false
+[workspace]
+members = ["heckle", "pyheckle"]
+resolver = "2"
