@@ -1,0 +1,13 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc 26d8538d25deee90235542feb7e4f5ba0e9cf4ad8e92e3d86c27917b68822dbd # shrinks to s = "\u{10eab}"
+cc 5325d9f0130c217cc416cddd29833896797fa36ed37e5ff26e4b13ebf9838e64 # shrinks to s = "~7Cc᠒ꬬfѨῨj\\j]*難y𐃀Ἓ�**s$JD..𐩐t"
+cc e9de2f402bd1b6ca7d4b23fa1967b528b6671cf5455ed874c8c041322a52148c # shrinks to s = "ῆ"
+cc f56a4d615d12b3b9c9e6eeb3b546663f4df6f53829daa84370740f0c3ddb6c83 # shrinks to s = "ΐ!¥{V"
+cc c9660ff04993281ae3c4c7288376302e2f199c80e6501a8db659fad068cc2cae # shrinks to s = "𝔞"
+cc 38deedd8dac27fcba2212524f7808fe66589464d67760d23a8bb3f196213b27d # shrinks to s = "'𑜊ଏ🕴4Ò=154B𜹵:𐝦%&\u{cca}`{𝕃C 𝒢െú"
+cc ae22e41195a1df9ddbbc4cd33051386aaf7f9246964f2a4b4e2011e8be37286b # shrinks to s = "\u{ccc}{%ଢ଼.?P}7%ﬖ(🉥`=𝔷$𖼙n.⺫:ᾁ𞹉"

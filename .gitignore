@@ -1,0 +1,6 @@
+# AI Agents
+.claude/
+
+# Rust
+Cargo.lock
+target/
